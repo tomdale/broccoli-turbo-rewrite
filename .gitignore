@@ -1,0 +1,7 @@
+native/target
+native/index.node
+**/*~
+**/node_modules
+**/.DS_Store
+test/fixture/**/dist
+.metadata_never_index

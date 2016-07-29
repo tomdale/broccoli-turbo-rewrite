@@ -1,0 +1,12 @@
+[package]
+name = "broccoli-turbo-rewrite"
+version = "0.1.0"
+authors = ["Tom Dale <tom@tomdale.net>"]
+license = "MIT"
+
+[lib]
+name = "broccoli_turbo_rewrite"
+crate-type = ["dylib"]
+
+[dependencies]
+neon = "0.1"

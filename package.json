@@ -1,0 +1,25 @@
+{
+  "name": "broccoli-turbo-rewrite",
+  "version": "0.1.0",
+  "description": "Broccoli plugin for rewriting paths in files using an asset map.",
+  "main": "lib/index.js",
+  "author": "Tom Dale <tom@tomdale.net>",
+  "license": "MIT",
+  "dependencies": {
+    "broccoli-filter": "^1.2.3",
+    "broccoli-plugin": "^1.2.1",
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.2",
+    "estree-walker": "^0.2.1",
+    "neon-cli": "^0.1.7"
+  },
+  "scripts": {
+    "install": "neon build"
+  },
+  "devDependencies": {
+    "broccoli-asset-rewrite": "^1.0.14",
+    "chai": "^3.5.0",
+    "ember-cli": "^2.7.0",
+    "mocha": "^2.5.3"
+  }
+}
